@@ -1,0 +1,25 @@
+.container{
+  position:absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+
+}
+
+button{
+  border: none;
+  margin: 20px;
+  padding: 20px;
+  width: 220px;
+  background-size: 110%;
+  transition: .5s;
+
+}
+
+.btn1{
+  background-image:linear-gradient(to left, red,blue,white)
+}
+
+button:hover{
+  background-position: right;
+}
